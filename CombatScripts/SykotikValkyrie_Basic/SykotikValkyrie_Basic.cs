@@ -144,6 +144,8 @@ namespace SykotikValkOverride
             _skywardStrike = GetKnownSkillIds("754, 755, 756");
             _swordOfJudgement = GetKnownSkillIds("732, 733, 734, 735, 770");
             _flowShieldThrow = GetKnownSkillIds("784");
+            
+            MyHelper.BDOLua("runLua(\"scripts//autobuffs.lua\") ");
         }
 
         public override void OnBotStop()
