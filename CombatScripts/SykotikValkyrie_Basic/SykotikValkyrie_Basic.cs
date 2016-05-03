@@ -162,6 +162,7 @@ namespace SykotikValkOverride
             if (AutoBuffsScript.ElapsedMilliseconds > 20)
             {
                 MyHelper.BDOLua("runLua(\"scripts//autobuffs.lua\") ");
+                AutoBuffsScript.Reset();
             }
 
 
