@@ -133,6 +133,8 @@ namespace SykotikSorcOverride
             ULTIMATE_DARK_FLAME_ID = GetKnownSkillId("94");
 
             ///////////////////////////////// END INITIALIZE SKILLS IDS /////////////////////////////////
+            
+            MyHelper.BDOLua("runLua(\"scripts//autobuffs.lua\") ");
         }
 
         public override void OnBotStop()
